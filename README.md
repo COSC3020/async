@@ -7,8 +7,11 @@ matches asynchronously, but does not need to do so in parallel. What type of
 asynchronous execution you choose is up to you.
 
 I have not provided a template; depending on how you choose to implement the
-function, it will have a different signature. I have also not provided any test
-code, but you can base yours on test code from other exercises.
+function, it will have a different signature.
+
+I have also not provided any test code, but you can base yours on test code from
+other exercises. Your tests must check the correctness of the result of running
+the function and run automatically when you commit through a GitHub action.
 
 The [async library](https://caolan.github.io/async/v3/) may be helpful with
 this.
